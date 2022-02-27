@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fast-Aid</string>
+    <string name="register">Register</string>
+    <string name="_hintphone_number">Phone Number</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="email_address">Email address</string>
+    <string name="todo">TODO</string>
+    <string name="please_enter_your_otp">Verify Number</string>
+    <string name="submit">Submit</string>
+    <string name="please_enter_the_otp_sent_to_your_phone">Please enter the OTP sent to your phone</string>
+    <string name="request_emergency">Request Emergency</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="turn_on_gps">TURN ON GPS</string>
+
+</resources>

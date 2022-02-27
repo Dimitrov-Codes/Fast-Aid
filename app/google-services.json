@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "335909457444",
+    "firebase_url": "https://fast-aid-80b5d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fast-aid-80b5d",
+    "storage_bucket": "fast-aid-80b5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335909457444:android:2ffba481d307c0d76cd2b1",
+        "android_client_info": {
+          "package_name": "com.example.fast_aid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335909457444-obcmbdbe3mtiu90sshospbrrr6tgu0fa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fast_aid",
+            "certificate_hash": "c8091123be4c1e2442581e7eb2aa0ae3fad02261"
+          }
+        },
+        {
+          "client_id": "335909457444-qv4cbs4gbe3ekm108fqp6vscdo4jaiuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNlos2g5u6bNmrqLmPhPpd5ZdhH8aBx1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335909457444-qv4cbs4gbe3ekm108fqp6vscdo4jaiuj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
