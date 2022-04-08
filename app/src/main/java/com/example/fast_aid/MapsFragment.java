@@ -131,13 +131,15 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
                                 .getFromLocation(position.latitude, position.longitude, 1)
                                 .get(0);
                         ((HomeFragment) getParentFragment()).setAddress(address);
+                        //Updates address in cloud every time locationCallback is called
+                        mCurrentLocation.put("Latitude", position.latitude);
+                        mCurrentLocation.put("Longitude", position.longitude);
+                        reference.setValue(mCurrentLocation);
+
                     } catch (IOException e) {
                         Toast.makeText(requireContext(), e.getMessage(), Toast.LENGTH_SHORT).show();
                         e.printStackTrace();
                     }
-                    mCurrentLocation.put("Latitude", position.latitude);
-                    mCurrentLocation.put("Longitude", position.longitude);
-                    reference.setValue(mCurrentLocation);
 
                 }
             };
